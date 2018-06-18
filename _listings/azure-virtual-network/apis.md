@@ -7,10 +7,10 @@ description: Azure Virtual Network lets you create private networks in the cloud
   or connect privately by using the ExpressRoute service.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Filters
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +23,9 @@ apis:
   tags: Route Filters
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutefiltersroutefiltername-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefiltersroutefiltername-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutefiltersroutefiltername-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefiltersroutefiltername-delete-openapi.md
 - name: Azure Virtual Network API Route Filters Get
   x-api-slug: azure-virtual-network-api
   description: Gets the specified route filter.
@@ -35,9 +35,9 @@ apis:
   tags: Route Filters
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutefiltersroutefiltername-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefiltersroutefiltername-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutefiltersroutefiltername-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefiltersroutefiltername-get-openapi.md
 - name: Azure Virtual Network API Route Filters Create Or Update
   x-api-slug: azure-virtual-network-api
   description: Creates or updates a route filter in a specified resource group.
@@ -47,7 +47,7 @@ apis:
   tags: Route Filters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutefiltersroutefiltername-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefiltersroutefiltername-put-openapi.md
 - name: Azure Virtual Network API Route Filters Update
   x-api-slug: azure-virtual-network-api
   description: Updates a route filter in a specified resource group.
@@ -57,7 +57,7 @@ apis:
   tags: Route Filters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutefiltersroutefiltername-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefiltersroutefiltername-patch-openapi.md
 - name: Azure Virtual Network API Route Filters List By Resource Group
   x-api-slug: azure-virtual-network-api
   description: Gets all route filters in a resource group.
@@ -67,7 +67,7 @@ apis:
   tags: Route Filters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftnetworkroutefilters-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefilters-get-openapi.md
 - name: Azure Virtual Network API Route Filters List
   x-api-slug: azure-virtual-network-api
   description: Gets all route filters in a subscription.
@@ -77,7 +77,7 @@ apis:
   tags: Route Filters
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidprovidersmicrosoftnetworkroutefilters-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/azure-virtual-network/subscriptionssubscriptionidprovidersmicrosoft-networkroutefilters-get-openapi.md
 - name: Azure Virtual Network API
   x-api-slug: azure-virtual-network-api
   description: Azure Virtual Network lets you create private networks in the cloud

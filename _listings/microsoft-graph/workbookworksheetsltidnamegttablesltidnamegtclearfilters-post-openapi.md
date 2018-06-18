@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 0
 info:
-  title: Microsoft Graph API Table Clear Filters
+  title: Microsoft Graph Table Clear Filters
   description: 'Table: clearFilters Clears all the filters currently applied on the
     table.'
   version: 1.0.0
@@ -26,7 +26,7 @@ paths:
       parameters:
       - in: header
         name: Authorization
-        description: 'Bearer '
+        description: Bearer
       responses:
         200:
           description: OK
@@ -44,7 +44,7 @@ paths:
       parameters:
       - in: header
         name: Authorization
-        description: 'Bearer '
+        description: Bearer
       responses:
         200:
           description: OK

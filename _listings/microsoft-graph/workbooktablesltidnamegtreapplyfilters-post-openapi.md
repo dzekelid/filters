@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 0
 info:
-  title: Microsoft Graph API Table Reapply Filters
+  title: Microsoft Graph Table Reapply Filters
   description: 'Table: reapplyFilters Reapplies all the filters currently on the table.'
   version: 1.0.0
 host: graph.microsoft.com
@@ -25,7 +25,7 @@ paths:
       parameters:
       - in: header
         name: Authorization
-        description: 'Bearer '
+        description: Bearer
       responses:
         200:
           description: OK
@@ -43,7 +43,7 @@ paths:
       parameters:
       - in: header
         name: Authorization
-        description: 'Bearer '
+        description: Bearer
       responses:
         200:
           description: OK
@@ -61,7 +61,7 @@ paths:
       parameters:
       - in: header
         name: Authorization
-        description: 'Bearer '
+        description: Bearer
       responses:
         200:
           description: OK

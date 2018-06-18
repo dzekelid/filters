@@ -10,15 +10,15 @@ description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Mi
   insights from the Microsoft cloud (for commercial users).'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Filters
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Microsoft Graph API Table Clear Filters
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Table Clear Filters
+  x-api-slug: microsoft-graph
   description: 'Table: clearFilters Clears all the filters currently applied on the
     table.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -30,8 +30,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/workbooktablesltidnamegtclearfilters-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/workbooktablesltidnamegtclearfilters-post-openapi.md
-- name: Microsoft Graph API Table Clear Filters
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Table Clear Filters
+  x-api-slug: microsoft-graph
   description: 'Table: clearFilters Clears all the filters currently applied on the
     table.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -43,8 +43,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/workbookworksheetsltidnamegttablesltidnamegtclearfilters-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/workbookworksheetsltidnamegttablesltidnamegtclearfilters-post-openapi.md
-- name: Microsoft Graph API Table Reapply Filters
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Table Reapply Filters
+  x-api-slug: microsoft-graph
   description: 'Table: reapplyFilters Reapplies all the filters currently on the table.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
@@ -55,8 +55,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/workbooktablesltidnamegtreapplyfilters-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/workbooktablesltidnamegtreapplyfilters-post-openapi.md
-- name: Microsoft Graph API Table Reapply Filters
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Table Reapply Filters
+  x-api-slug: microsoft-graph
   description: 'Table: reapplyFilters Reapplies all the filters currently on the table.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
@@ -67,8 +67,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/workbookworksheetsltidnamegttablesltidnamegtreapplyfilters-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/filters/master/_listings/microsoft-graph/workbookworksheetsltidnamegttablesltidnamegtreapplyfilters-post-openapi.md
-- name: Microsoft Graph API
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph
+  x-api-slug: microsoft-graph
   description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
     cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
     Graph simplifies queries that would otherwise be more complex. You can use Microsoft

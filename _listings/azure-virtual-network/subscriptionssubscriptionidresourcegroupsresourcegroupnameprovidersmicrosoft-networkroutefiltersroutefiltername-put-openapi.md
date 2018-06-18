@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Virtual Network
-x-complete: 1
+x-complete: 0
 info:
-  title: NetworkManagementClient
-  description: the-microsoft-azure-network-management-api-provides-a-restful-set-of-web-services-that-interact-with-microsoft-azure-networks-service-to-manage-your-network-resources--the-api-has-entities-that-capture-the-relationship-between-an-end-user-and-the-microsoft-azure-networks-service-
+  title: Azure Virtual Network API Route Filters Create Or Update
+  description: Creates or updates a route filter in a specified resource group.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -81,59 +81,17 @@ paths:
           description: OK
       tags:
       - Route Filters
-    patch:
-      summary: Route Filters Update
-      description: Updates a route filter in a specified resource group.
-      operationId: RouteFilters_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefiltersroutefiltername-patch
-      parameters:
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      - in: path
-        name: routeFilterName
-        description: The name of the route filter
-      - in: body
-        name: routeFilterParameters
-        description: Parameters supplied to the update route filter operation
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Route Filters
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/routeFilters:
-    get:
-      summary: Route Filters List By Resource Group
-      description: Gets all route filters in a resource group.
-      operationId: RouteFilters_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkroutefilters-get
-      parameters:
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Route Filters
-  /subscriptions/{subscriptionId}/providers/Microsoft.Network/routeFilters:
-    get:
-      summary: Route Filters List
-      description: Gets all route filters in a subscription.
-      operationId: RouteFilters_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-networkroutefilters-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Route Filters
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
