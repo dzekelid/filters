@@ -65,6 +65,74 @@ paths:
       - Urls
       - Suggested
       - Filters
+  /projects/{username}/{project_slug}/filters:
+    get:
+      summary: Get Projects Username Project Slug Filters
+      description: List all the project's saved filters (each filter's name, ID and
+        filter value)
+      operationId: getProjectsUsernameProjectSlugFilters
+      x-api-path-slug: projectsusernameproject-slugfilters-get
+      parameters:
+      - in: query
+        name: page
+        description: Page Number
+      - in: query
+        name: size
+        description: Page Size
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Username
+      - Project
+      - Slug
+      - Filters
+    parameters:
+      summary: Parameters Projects Username Project Slug Filters
+      description: Parameters projects username project slug filters.
+      operationId: parametersProjectsUsernameProjectSlugFilters
+      x-api-path-slug: projectsusernameproject-slugfilters-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Username
+      - Project
+      - Slug
+      - Filters
+  /projects/{username}/{project_slug}/filters/{identifier}:
+    get:
+      summary: Get Projects Username Project Slug Filters Entifier
+      description: Retrieves a specific saved filter's name, ID and filter value
+      operationId: getProjectsUsernameProjectSlugFiltersEntifier
+      x-api-path-slug: projectsusernameproject-slugfiltersidentifier-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Username
+      - Project
+      - Slug
+      - Filters
+      - Identifier
+    parameters:
+      summary: Parameters Projects Username Project Slug Filters Entifier
+      description: Parameters projects username project slug filters entifier.
+      operationId: parametersProjectsUsernameProjectSlugFiltersEntifier
+      x-api-path-slug: projectsusernameproject-slugfiltersidentifier-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Username
+      - Project
+      - Slug
+      - Filters
+      - Identifier
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

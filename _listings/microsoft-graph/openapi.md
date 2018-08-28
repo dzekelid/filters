@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 1
@@ -87,4 +86,67 @@ paths:
       - Table
       - Reapply
       - Filters
----
+  /workbook/tables(&lt;id|name&gt;)/columns(&lt;id|name&gt;)/filter/apply:
+    post:
+      summary: Filter Apply
+      description: 'Filter: apply Apply the given filter criteria on the given column.'
+      operationId: Filter:Apply
+      x-api-path-slug: workbooktablesltidnamegtcolumnsltidnamegtfilterapply-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer
+      responses:
+        200:
+          description: OK
+      tags:
+      - Filter
+      - Apply
+  /workbook/worksheets(&lt;id|name&gt;)/tables(&lt;id|name&gt;)/columns(&lt;id|name&gt;)/filter/apply:
+    post:
+      summary: Filter Apply
+      description: 'Filter: apply Apply the given filter criteria on the given column.'
+      operationId: Filter:Apply
+      x-api-path-slug: workbookworksheetsltidnamegttablesltidnamegtcolumnsltidnamegtfilterapply-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer
+      responses:
+        200:
+          description: OK
+      tags:
+      - Filter
+      - Apply
+  /workbook/tables(&lt;id|name&gt;)/columns(&lt;id|name&gt;)/filter/clear:
+    post:
+      summary: Filter Clear
+      description: 'Filter: clear Clear the filter on the given column.'
+      operationId: Filter:Clear
+      x-api-path-slug: workbooktablesltidnamegtcolumnsltidnamegtfilterclear-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer
+      responses:
+        200:
+          description: OK
+      tags:
+      - Filter
+      - Clear
+  /workbook/worksheets(&lt;id|name&gt;)/tables(&lt;id|name&gt;)/columns(&lt;id|name&gt;)/filter/clear:
+    post:
+      summary: Filter Clear
+      description: 'Filter: clear Clear the filter on the given column.'
+      operationId: Filter:Clear
+      x-api-path-slug: workbookworksheetsltidnamegttablesltidnamegtcolumnsltidnamegtfilterclear-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer
+      responses:
+        200:
+          description: OK
+      tags:
+      - Filter
+      - Clear
